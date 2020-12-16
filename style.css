@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 300px;
+    width: 200px;
+    background: url(/Images/screen-web.png);
+    background-size: cover;
+    background-position: top;
+    transition-duration: 5000ms;
+}
+
+.container:hover {
+    background-position: bottom;
+}
